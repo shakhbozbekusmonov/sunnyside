@@ -54,4 +54,32 @@ img{
     padding-right: 20px;
     padding-left: 20px;
 }
-
+/* SITE SECTION STYLE START */
+.wrapper{
+    display: flex;
+}
+.site_section__card__cherry{
+   position: relative; 
+}
+.site_section__card__charry__title{
+    position: absolute;
+    top: 280px;
+    right: 100px;
+    left: 150px;
+}
+.site_section__card__charry__desc{
+    padding-left: 70px;
+}
+.site_section__card__mandarin{
+    position: relative;
+}
+.site_section__card__mandarin__title{
+    position: absolute;
+    top: 280px;
+    right: 100px;
+    left: 150px;
+}
+.site_section__card__mandarin__desc{
+    padding-left: 70px;
+} 
+/* SITE SECTION END */
