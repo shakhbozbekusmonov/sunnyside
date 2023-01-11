@@ -122,3 +122,84 @@ img{
 
 }
 
+
+/******************** HEADER STYLES START *******************/
+.site-header{
+    padding-top: 34px;
+    padding-bottom: 34px;
+    background-color: #4ABDF2;
+}
+
+.site-header__wrapper{
+    width: 100%;
+    max-width: 1352px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sitenav__list{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+.sitenav__item:not(:last-child){
+    margin-right: 47px;
+}
+
+.sitenav__link{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.sitenav__item:last-child .sitenav__link{
+    padding: 16px 30px;
+    border-radius: 28px;
+    background-color: #fff;
+    color: #000;
+}
+/******************** HEADER STYLES END *******************/
+
+/* HERO STYLE START */
+
+.hero{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/hero_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero__wrapper{
+    width: 100%;
+    position: relative;
+}
+
+.hero__info h1{
+    padding-top: 190px;
+    font-family: 'Fraunces 9pt Soft';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 69px;
+    text-align: center;
+    letter-spacing: 8.75px;
+    color: #FFFFFF;
+}
+
+.hero_arrow_img{
+    position: absolute;
+    width: 30px;
+    height: 107.48px;
+    left: 49%;
+    top: 46%;
+}
+/* HERO STYLE END */
