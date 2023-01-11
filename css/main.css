@@ -53,6 +53,73 @@ img{
     margin-left: auto;
     padding-right: 20px;
     padding-left: 20px;
+    background-color: #F2F2F2;
+    
+}
+
+.container h1{
+    font-family: 'Fraunces 9pt Soft';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 5px;
+
+    color: #A7AAAD;
+}
+
+.card{
+    /* width: px; */
+    height: 300px;
+    margin-top: 81px;
+    margin-right: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+.paragrof{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+    text-align: center;
+    letter-spacing: -0.128571px;
+
+    color: #5B636D;
+}
+
+.foot{
+    margin-top: 69px;
+    font-family: 'Fraunces 9pt Soft';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+
+    color: #24303E;
+}
+
+.paragrof-1{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height, or 179% */
+
+    text-align: center;
+    letter-spacing: -0.1px;
+
+    color: #A7AAAD;
+
 }
 
 
