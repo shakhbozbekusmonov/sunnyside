@@ -55,6 +55,7 @@ img{
     padding-left: 20px;
 }
 
+
 /******************** HEADER STYLES START *******************/
 .site-header{
     padding-top: 34px;
@@ -98,3 +99,40 @@ img{
     color: #000;
 }
 /******************** HEADER STYLES END *******************/
+
+/* HERO STYLE START */
+
+.hero{
+    width: 100%;
+    height: 100%;
+}
+
+.hero__wrapper{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(../images/hero_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero__info h1{
+    padding-top: 190px;
+    font-family: 'Fraunces 9pt Soft';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 69px;
+    text-align: center;
+    letter-spacing: 8.75px;
+    color: #FFFFFF;
+}
+
+.hero_arrow_img{
+    position: absolute;
+    width: 30px;
+    height: 107.48px;
+    left: 49%;
+    top: 46%;
+}
+/* HERO STYLE END */
